@@ -21,11 +21,6 @@ gcc -O2 -Wall terminal_paint.c -o terminal_paint -lncurses
 gcc terminal_paint.c -o terminal_paint -I/ucrt64/include/ncursesw -L/ucrt64/lib -lncursesw
 ./terminal_paint.exe
 ```
-**Windows (MinGW):**
-```bash
-gcc -O2 -Wall terminal_paint.c -o terminal_paint.exe -lpdcurses
-terminal_paint.exe
-```
 
 ## Controls
 
@@ -51,5 +46,6 @@ terminal_paint.exe
 Saves as simple text format with canvas dimensions and character/color data.
 
 ---
+
 
 *A portfolio project demonstrating C programming.*
